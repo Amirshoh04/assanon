@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+body{
+    background-color: #202C36;
+}
+.inp{
+    width: 480px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #2B3844;
+    color: white;
+    margin-left: 80px;
+}
+@media (max-width: 834px) {
+    .inp{
+        width: 768px;
+        height: 101px;
+        border-radius: 5px;
+        margin-left: 32px;
+        margin-right: 34px;
+    }
+}
+@media (max-width: 375px) {
+    .inp{
+        width: 343px;
+        height: 48px;
+        border-radius: 5px;
+        margin-left: 16px;
+    }
+}
